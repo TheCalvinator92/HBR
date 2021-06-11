@@ -1,0 +1,61 @@
+body {background:#000 url('HBR girlLogo.png') no-repeat center top scroll}
+body {cursor: url(cursorMUSIC.cur),default;}
+   
+  h1 {
+    text-align: center;
+    margin: auto;
+    opacity: .6;
+  }
+
+  .social {margin: auto;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;}
+    
+    .link{
+      cursor: url(cursorDefault.cur),pointer;
+    
+      display: inline-block;
+      color: #000;
+     
+      text-decoration: none;
+    }
+    
+    .link:hover{
+      text-decoration: none;
+      color: #000;
+    }
+    
+
+    
+    @-webkit-keyframes pulse-grow-on-hover {
+      to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+    @keyframes pulse-grow-on-hover {
+      to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+    .pulse-grow-on-hover {
+     
+    }
+    .pulse-grow-on-hover:hover, .pulse-grow-on-hover:focus, .pulse-grow-on-hover:active {
+      -webkit-animation-name: pulse-grow-on-hover;
+      animation-name: pulse-grow-on-hover;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
